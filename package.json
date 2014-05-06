@@ -1,0 +1,25 @@
+{
+  "name": "git-node-fs",
+  "description": "A node adapter for the fs-db mixin for js-git",
+  "keywords": [
+    "git",
+    "js-git"
+  ],
+  "version": "0.0.0",
+  "main": "git-node-fs.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creationix/git-node-fs.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creationix/git-node-fs/issues"
+  },
+  "homepage": "https://github.com/creationix/git-node-fs",
+  "dependencies": {
+    "mkdirp": "git://github.com/substack/node-mkdirp.git#0.5.0"
+  }
+}
