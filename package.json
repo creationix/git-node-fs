@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/creationix/git-node-fs",
   "dependencies": {
+    "js-git": "git://github.com/creationix/js-git.git",
     "mkdirp": "git://github.com/substack/node-mkdirp.git#0.5.0"
   }
 }
