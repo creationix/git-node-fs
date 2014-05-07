@@ -6,7 +6,7 @@
     "js-git"
   ],
   "version": "0.0.0",
-  "main": "git-node-fs.js",
+  "main": "lib/node-fs.js",
   "scripts": {
     "test": "node test.js"
   },
