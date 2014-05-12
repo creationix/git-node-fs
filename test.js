@@ -46,3 +46,7 @@ fs.writeFile(temporaryPath, new Buffer("Hello, World!\n"), function (err) {
   });
 });
 
+var bareDb = require("./mixins/bare-db");
+var repo = {};
+bareDb(repo, path.join(__dirname, ".git"));
+

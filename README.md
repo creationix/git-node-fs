@@ -7,8 +7,7 @@ This enables access to Git repositories on the filesystem using Node.js.
 ```js
 var repo = {};
 repo.rootPath = path.join(__dirname, ".git");
-var fs = require("git-node-fs");
-require("js-git/mixins/fs-db")(repo, fs);
+require("git-node-fs/mixins/bare-db")(repo);
 ```
 
 Or use the provided mixin directly.
