@@ -5,7 +5,7 @@
     "git",
     "js-git"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/node-fs.js",
   "scripts": {
     "test": "node test.js"
@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/creationix/git-node-fs/issues"
   },
-  "homepage": "https://github.com/creationix/git-node-fs",
-  "dependencies": {
-    "mkdirp": "git://github.com/substack/node-mkdirp.git#0.5.0"
-  }
+  "homepage": "https://github.com/creationix/git-node-fs"
 }

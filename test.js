@@ -1,7 +1,7 @@
 
 var assert = require("assert");
 var path = require("path");
-var fs = require("./git-node-fs");
+var fs = require("./lib/node-fs");
 var nodeFs = require("fs");
 
 var directoryPath = path.join(__dirname, "test", "fixtures");
