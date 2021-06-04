@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/creationix/git-node-fs/issues"
   },
-  "homepage": "https://github.com/creationix/git-node-fs"
+  "homepage": "https://github.com/creationix/git-node-fs",
+  "peerDependencies": {
+    "js-git": "^0.7.8"
+  },
+  "peerDependenciesMeta": {
+    "js-git": {
+      "optional": true
+    }
+  }
 }
